@@ -1,0 +1,231 @@
+/* Estilos globales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bungee', sans-serif; /* Cambia la fuente principal a algo más llamativo */
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Press Start 2P', cursive; /* Usa una fuente llamativa para títulos */
+    color: #00b0ff; /* Azul neón */
+}
+
+p {
+    font-family: 'Bungee', sans-serif; /* Fuente más audaz para el cuerpo del texto */
+    color: #bdbdbd;
+    font-size: 1rem;
+}
+
+/* Ajustes de los botones */
+button {
+    font-family: 'Press Start 2P', cursive; /* Fuente audaz para los botones */
+    background-color: #00e676; /* Verde neón */
+    color: #121212;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.9rem;
+    text-transform: uppercase; /* Convierte el texto del botón a mayúsculas */
+}
+
+button:hover {
+    background-color: #00c853; /* Verde más oscuro */
+}
+
+/* Header */
+header .logo {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.8rem;
+    color: #00b0ff; /* Azul neón */
+}
+
+a {
+    text-decoration: none;
+    color: #00e676; /* Verde neón */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilización del Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1c1c1c;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00b0ff; /* Azul neón */
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav li {
+    font-size: 1.1rem;
+}
+
+.cta {
+    background-color: #00e676; /* Verde neón */
+    color: #121212;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: #00c853; /* Verde más oscuro */
+}
+
+/* Sección Hero */
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #00b0ff; /* Azul neón */
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero button {
+    background-color: #00e676; /* Verde neón */
+    color: #121212;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #00c853;
+}
+
+/* Secciones */
+section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+#reseñas, #comunidad, #eventos, #unete {
+    background-color: #1e1e1e;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+h2 {
+    color: #00b0ff; /* Azul neón */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: #bdbdbd;
+    font-size: 1rem;
+}
+
+/* Tarjetas de Reseñas */
+.reseña-card {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    padding: 1.5rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s;
+}
+
+.reseña-card:hover {
+    transform: translateY(-5px);
+}
+
+.reseña-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.reseña-card h3 {
+    margin-top: 1rem;
+    color: #00e676;
+}
+
+.reseña-card button {
+    background-color: #00b0ff; /* Azul neón */
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #121212;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reseña-card button:hover {
+    background-color: #0086c3;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #1c1c1c;
+    padding: 2rem;
+    color: #757575;
+    text-align: center;
+}
+
+footer a {
+    color: #e60000;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+.redes-sociales a {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+
+.boletin input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 0.5rem;
+}
+
+.boletin button {
+    background-color: #00b0ff; /* Azul neón */
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #121212;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boletin button:hover {
+    background-color: #0086c3;
+}
